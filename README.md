@@ -1,0 +1,1 @@
+I'll be creating a landing page according to the specifications of The Odin Project Landing Page Assignment.
