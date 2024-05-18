@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    padding: 20px 100px 75px 100px;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav p {
+    font-size: 24px;
+    font-weight: bold;
+    color: #f9faf8;
+}
+
+.header-nav a,
+.header-body p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header-body {
+    margin-top: 75px;
+    display: flex;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.text-container button {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(51, 51, 248);
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+main {
+    background-color: white;
+}
+
+.portfolio {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+h2 {
+    margin-top: 25px;
+}
+
+.portfolio-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.portfolio-container img {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.quote {
+    padding: 100px;
+    background-color: #e5e7eb;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+blockquote {
+    display: flex;
+    flex-direction: column;
+}
+
+.speaker {
+    align-self: flex-end;
+    font-weight: bold;
+    color: black;
+}
+
+.prompt {
+    padding: 80px;
+}
+
+.sign {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 20px 65px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign > button {
+    padding: 5px 20px;
+    background-color: rgb(0, 81, 255);
+    color: #f9faf8;
+    font-weight: bold;
+    border-radius: 10px;
+    border: solid white;
+}
+
+footer {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f9faf8;
+}

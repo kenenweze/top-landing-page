@@ -3,24 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Kene's Bio</title>
 </head>
 <body>
     <header>
+
+        <div class="header-nav">
+        <p>Header Logo</p>
         <ul>
             <li><a href="http://">About Me</a></li>
             <li><a href="http://">Curriculum Vitae</a></li>
             <li><a href="http://">Portfolio</a></li>
         </ul>
+        </div>
 
-        <div class="headerbody">
+        <div class="header-body">
+            <div class="text-container">
             <h1>Kene's Bio</h1>
             <p>Welcome to the portfolio page of Kenechukwu Nweze, a Frontend Web Developer specializing
                 in HTML, CSS, Javascript and React.
             </p>
-            <img src="" alt="An image of Kenechukwu Nweze" width="300" height="200">
-
             <button>Sign Up</button>
+            </div>
+
+            <div class="image-container">
+            <img src="images/just-ken.jpg" alt="An image of Kenechukwu Nweze" width="300" height="200">
+            </div>
+
         </div>
     </header>
 
@@ -28,36 +38,48 @@
         <section class="portfolio">
             <h2>A few of the projects I have worked on</h2>
             
+            <div class="portfolio-container">
             <figure>
-                <a href="http://"><img src="" alt="" width="200" height="150"></a>
+                <a href="http://"><img src="images/scott-graham-5fNmWej4tAA-unsplash - small.jpg" alt="" width="200" height="150"></a>
                 <figcaption>An e-commerce site for Casual Cosplay</figcaption>
             </figure>
 
             <figure>
-                <a href="http://"><img src="" alt="" width="200" height="150"></a>
+                <a href="http://"><img src="images/andrew-neel-cckf4TsHAuw-unsplash - small.jpg" alt="" width="200" height="150"></a>
                 <figcaption>An landing page for Write 2 Wealth</figcaption>
             </figure>
 
             <figure>
-                <a href="http://"><img src="" alt="" width="200" height="150"></a>
+                <a href="http://"><img src="images/sincerely-media-IKzmglo7JLk-unsplash - small.jpg" alt="" width="200" height="150"></a>
                 <figcaption>Redesigned sales pages for Bull Fitness</figcaption>
             </figure>
 
             <figure>
-                <a href="http://"><img src="" alt="" width="200" height="150"></a>
+                <a href="http://"><img src="images/shashank-hegde-ZugiKXUz-yc-unsplash - small.jpg" alt="" width="200" height="150"></a>
                 <figcaption>A landing page for Grow Spiritually</figcaption>
             </figure>
+            </div>
         </section>
 
         <section class="quote">
-            <blockquote>The price of success is hard work, dedication to the job at hand, 
+            <blockquote><i>The price of success is hard work, dedication to the job at hand, 
                 and the determination that whether we win or lose, we have applied the best of ourselves to the 
-                task at hand. - STeve Lombardi</blockquote>
+                task at hand.</i><br> <span class="speaker"> - Steve Lombardi</span></blockquote>
         </section>
 
         <section class="prompt">
-
+            <div class="sign">
+                <div>
+                <h3>Call to action! It's time!</h3>
+                <span class="service">Sign up for our service by clicking that button over there!</span>
+                </div>
+                <button>Sign Up</button>
+            </div>
         </section>
     </main>
+
+    <footer>
+        <p>Copyright &copy; Kenechukwu Nweze 2024</p>
+    </footer>
 </body>
 </html>
